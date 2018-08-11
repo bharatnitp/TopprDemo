@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ProductDetailViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class ProductDetailViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -17,7 +17,9 @@ class ProductDetailViewController: UIViewController, UITableViewDelegate, UITabl
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
+}
+
+extension ProductDetailViewController: UITableViewDelegate, UITableViewDataSource  {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return products.count
     }
@@ -27,8 +29,26 @@ class ProductDetailViewController: UIViewController, UITableViewDelegate, UITabl
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "VariantTableViewCell", for: indexPath) as! VariantTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "GenericTableViewCell", for: indexPath) as! GenericTableViewCell
         cell.configureCell(with: products[indexPath.row])
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        pushProductVariantViewController(index: indexPath.row)
+    }
+    
+    func pushProductVariantViewController(index: Int) {
+        
+        guard let variants = products[index].variants?.allObjects as? [Variant], variants.count > 0 else {
+            showAlert(title: "Item out of stock!!", message: "")
+            return
+        }
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        if let viewControler = storyBoard.instantiateViewController(withIdentifier: "ProductVariantViewController") as? ProductVariantViewController {
+            viewControler.variants = variants
+            viewControler.title = "Variants"
+            navigationController?.pushViewController(viewControler, animated: true)
+        }
     }
 }

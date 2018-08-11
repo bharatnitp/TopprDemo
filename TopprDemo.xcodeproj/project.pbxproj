@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD20DFCB211EBBDA00B8E947 /* ProductVariantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20DFCA211EBBDA00B8E947 /* ProductVariantViewController.swift */; };
 		DD88A26F211D6EEC00093ACE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD88A26E211D6EEC00093ACE /* AppDelegate.swift */; };
 		DD88A271211D6EEC00093ACE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD88A270211D6EEC00093ACE /* HomeViewController.swift */; };
 		DD88A274211D6EEC00093ACE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD88A272211D6EEC00093ACE /* Main.storyboard */; };
@@ -31,7 +32,7 @@
 		DD88A304211DAFCB00093ACE /* ProductMetaData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD88A2F5211DAFCB00093ACE /* ProductMetaData+CoreDataClass.swift */; };
 		DD88A306211DAFCB00093ACE /* Tax+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD88A2F7211DAFCB00093ACE /* Tax+CoreDataClass.swift */; };
 		DD88A309211DB01100093ACE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD88A308211DB01100093ACE /* HomeViewModel.swift */; };
-		DD88A30B211DB0B500093ACE /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD88A30A211DB0B500093ACE /* File.swift */; };
+		DD88A30B211DB0B500093ACE /* WebServiceInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD88A30A211DB0B500093ACE /* WebServiceInteractor.swift */; };
 		DD88A30E211DBCC100093ACE /* Ranking+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD88A30C211DBCC100093ACE /* Ranking+CoreDataClass.swift */; };
 		DD88A30F211DBCC100093ACE /* Ranking+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD88A30D211DBCC100093ACE /* Ranking+CoreDataProperties.swift */; };
 		DD88A312211DC6F900093ACE /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD88A311211DC6F900093ACE /* HeaderView.xib */; };
@@ -39,7 +40,7 @@
 		DD88A317211DC74700093ACE /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD88A315211DC74700093ACE /* TableViewCell.swift */; };
 		DD88A318211DC74700093ACE /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD88A316211DC74700093ACE /* TableViewCell.xib */; };
 		DD88A31A211DD74300093ACE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD88A319211DD74300093ACE /* Extensions.swift */; };
-		DD88A31C211E253C00093ACE /* VariantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD88A31B211E253C00093ACE /* VariantTableViewCell.swift */; };
+		DD88A31C211E253C00093ACE /* GenericTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD88A31B211E253C00093ACE /* GenericTableViewCell.swift */; };
 		DD88A31E211E269D00093ACE /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD88A31D211E269D00093ACE /* ProductDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD20DFCA211EBBDA00B8E947 /* ProductVariantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVariantViewController.swift; sourceTree = "<group>"; };
 		DD88A26B211D6EEC00093ACE /* TopprDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopprDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD88A26E211D6EEC00093ACE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD88A270211D6EEC00093ACE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -91,7 +93,7 @@
 		DD88A2F5211DAFCB00093ACE /* ProductMetaData+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ProductMetaData+CoreDataClass.swift"; path = "TopprDemo/DataModel/ProductMetaData+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		DD88A2F7211DAFCB00093ACE /* Tax+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Tax+CoreDataClass.swift"; path = "TopprDemo/DataModel/Tax+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		DD88A308211DB01100093ACE /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		DD88A30A211DB0B500093ACE /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		DD88A30A211DB0B500093ACE /* WebServiceInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceInteractor.swift; sourceTree = "<group>"; };
 		DD88A30C211DBCC100093ACE /* Ranking+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ranking+CoreDataClass.swift"; sourceTree = "<group>"; };
 		DD88A30D211DBCC100093ACE /* Ranking+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ranking+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		DD88A311211DC6F900093ACE /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
@@ -99,7 +101,7 @@
 		DD88A315211DC74700093ACE /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		DD88A316211DC74700093ACE /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		DD88A319211DD74300093ACE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		DD88A31B211E253C00093ACE /* VariantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariantTableViewCell.swift; sourceTree = "<group>"; };
+		DD88A31B211E253C00093ACE /* GenericTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTableViewCell.swift; sourceTree = "<group>"; };
 		DD88A31D211E269D00093ACE /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,9 +156,9 @@
 				DD88A310211DC6E000093ACE /* View */,
 				DD88A307211DAFDA00093ACE /* Controller */,
 				DD88A2E8211DAFA100093ACE /* ViewModel */,
-				DD88A2A2211D6F3300093ACE /* WebService */,
 				DD88A2C1211D805300093ACE /* DataModel */,
 				DD88A29F211D6F2800093ACE /* Model */,
+				DD88A2A2211D6F3300093ACE /* WebService */,
 				DD88A26E211D6EEC00093ACE /* AppDelegate.swift */,
 				DD88A272211D6EEC00093ACE /* Main.storyboard */,
 				DD88A319211DD74300093ACE /* Extensions.swift */,
@@ -198,7 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				DD88A2A3211D6F3300093ACE /* WebServiceManager.swift */,
-				DD88A30A211DB0B500093ACE /* File.swift */,
+				DD88A30A211DB0B500093ACE /* WebServiceInteractor.swift */,
 			);
 			path = WebService;
 			sourceTree = "<group>";
@@ -239,6 +241,7 @@
 			children = (
 				DD88A270211D6EEC00093ACE /* HomeViewController.swift */,
 				DD88A31D211E269D00093ACE /* ProductDetailViewController.swift */,
+				DD20DFCA211EBBDA00B8E947 /* ProductVariantViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -250,7 +253,7 @@
 				DD88A313211DC72200093ACE /* HeaderView.swift */,
 				DD88A315211DC74700093ACE /* TableViewCell.swift */,
 				DD88A316211DC74700093ACE /* TableViewCell.xib */,
-				DD88A31B211E253C00093ACE /* VariantTableViewCell.swift */,
+				DD88A31B211E253C00093ACE /* GenericTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -391,9 +394,10 @@
 				DD88A309211DB01100093ACE /* HomeViewModel.swift in Sources */,
 				DD88A304211DAFCB00093ACE /* ProductMetaData+CoreDataClass.swift in Sources */,
 				DD88A306211DAFCB00093ACE /* Tax+CoreDataClass.swift in Sources */,
-				DD88A31C211E253C00093ACE /* VariantTableViewCell.swift in Sources */,
+				DD88A31C211E253C00093ACE /* GenericTableViewCell.swift in Sources */,
 				DD88A2A4211D6F3300093ACE /* WebServiceManager.swift in Sources */,
 				DD88A271211D6EEC00093ACE /* HomeViewController.swift in Sources */,
+				DD20DFCB211EBBDA00B8E947 /* ProductVariantViewController.swift in Sources */,
 				DD88A2FD211DAFCB00093ACE /* ChildCategory+CoreDataClass.swift in Sources */,
 				DD88A301211DAFCB00093ACE /* Category+CoreDataProperties.swift in Sources */,
 				DD88A26F211D6EEC00093ACE /* AppDelegate.swift in Sources */,
@@ -401,7 +405,7 @@
 				DD88A317211DC74700093ACE /* TableViewCell.swift in Sources */,
 				DD88A31E211E269D00093ACE /* ProductDetailViewController.swift in Sources */,
 				DD88A2F8211DAFCB00093ACE /* CoreDataManager.swift in Sources */,
-				DD88A30B211DB0B500093ACE /* File.swift in Sources */,
+				DD88A30B211DB0B500093ACE /* WebServiceInteractor.swift in Sources */,
 				DD88A2FF211DAFCB00093ACE /* ChildCategory+CoreDataProperties.swift in Sources */,
 				DD88A2FC211DAFCB00093ACE /* Variant+CoreDataProperties.swift in Sources */,
 				DD88A300211DAFCB00093ACE /* Category+CoreDataClass.swift in Sources */,

@@ -18,7 +18,7 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "E-Commerce"
+        title = "Home"
         tableView.isHidden = true
         viewModel = HomeViewModel(delegate: self)
         registerNibs()
@@ -83,7 +83,10 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func pushProductDetailViewController(_ section: Int, _ row: Int) {
-        guard let products = viewModel.getProducts(section, row), products.count > 0 else { return }
+        guard let products = viewModel.getProducts(section, row), products.count > 0 else {
+            self.showAlert(title: "Item out of stock!!", message: "")
+            return
+        }
         if let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ProductDetailViewController") as? ProductDetailViewController {
             viewController.title = "Detail"
             viewController.products = products
