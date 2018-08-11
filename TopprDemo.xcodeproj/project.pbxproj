@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		DD20DFCB211EBBDA00B8E947 /* ProductVariantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20DFCA211EBBDA00B8E947 /* ProductVariantViewController.swift */; };
+		DD20DFCD211ECB7600B8E947 /* HomeViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20DFCC211ECB7600B8E947 /* HomeViewControllerTests.swift */; };
+		DD20DFD2211ED72200B8E947 /* E-Commerce.json in Resources */ = {isa = PBXBuildFile; fileRef = DD20DFCE211ECF8900B8E947 /* E-Commerce.json */; };
+		DD20DFD4211EF30E00B8E947 /* ProductDetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20DFD3211EF30E00B8E947 /* ProductDetailViewControllerTests.swift */; };
+		DD20DFD6211EF4B600B8E947 /* ProductVariantViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20DFD5211EF4B600B8E947 /* ProductVariantViewControllerTests.swift */; };
 		DD88A26F211D6EEC00093ACE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD88A26E211D6EEC00093ACE /* AppDelegate.swift */; };
 		DD88A271211D6EEC00093ACE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD88A270211D6EEC00093ACE /* HomeViewController.swift */; };
 		DD88A274211D6EEC00093ACE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD88A272211D6EEC00093ACE /* Main.storyboard */; };
@@ -63,6 +67,10 @@
 
 /* Begin PBXFileReference section */
 		DD20DFCA211EBBDA00B8E947 /* ProductVariantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVariantViewController.swift; sourceTree = "<group>"; };
+		DD20DFCC211ECB7600B8E947 /* HomeViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerTests.swift; sourceTree = "<group>"; };
+		DD20DFCE211ECF8900B8E947 /* E-Commerce.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "E-Commerce.json"; sourceTree = "<group>"; };
+		DD20DFD3211EF30E00B8E947 /* ProductDetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewControllerTests.swift; sourceTree = "<group>"; };
+		DD20DFD5211EF4B600B8E947 /* ProductVariantViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVariantViewControllerTests.swift; sourceTree = "<group>"; };
 		DD88A26B211D6EEC00093ACE /* TopprDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopprDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD88A26E211D6EEC00093ACE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD88A270211D6EEC00093ACE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -173,7 +181,11 @@
 		DD88A285211D6EED00093ACE /* TopprDemoTests */ = {
 			isa = PBXGroup;
 			children = (
+				DD20DFCE211ECF8900B8E947 /* E-Commerce.json */,
 				DD88A286211D6EED00093ACE /* TopprDemoTests.swift */,
+				DD20DFCC211ECB7600B8E947 /* HomeViewControllerTests.swift */,
+				DD20DFD3211EF30E00B8E947 /* ProductDetailViewControllerTests.swift */,
+				DD20DFD5211EF4B600B8E947 /* ProductVariantViewControllerTests.swift */,
 				DD88A288211D6EED00093ACE /* Info.plist */,
 			);
 			path = TopprDemoTests;
@@ -362,6 +374,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD20DFD2211ED72200B8E947 /* E-Commerce.json in Resources */,
 				DD88A27C211D6EED00093ACE /* LaunchScreen.storyboard in Resources */,
 				DD88A318211DC74700093ACE /* TableViewCell.xib in Resources */,
 				DD88A279211D6EED00093ACE /* Assets.xcassets in Resources */,
@@ -427,6 +440,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD88A287211D6EED00093ACE /* TopprDemoTests.swift in Sources */,
+				DD20DFD4211EF30E00B8E947 /* ProductDetailViewControllerTests.swift in Sources */,
+				DD20DFD6211EF4B600B8E947 /* ProductVariantViewControllerTests.swift in Sources */,
+				DD20DFCD211ECB7600B8E947 /* HomeViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

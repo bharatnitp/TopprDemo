@@ -97,14 +97,19 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
 
 extension HomeViewController: HomeViewModelDelegate {
     func didReceiveData() {
-        refreshControl.endRefreshing()
+        if refreshControl != nil {
+            refreshControl.endRefreshing()
+        }
+        
         activityIndicator.stopAnimating()
         tableView.isHidden = false
         tableView.reloadData()
     }
     
     func didReceiveError() {
-        refreshControl.endRefreshing()
+        if refreshControl != nil {
+            refreshControl.endRefreshing()
+        }
         activityIndicator.stopAnimating()
         tableView.isHidden = true
         self.showAlert(title: "Error!", message: "Something went wrong.Please try again later")

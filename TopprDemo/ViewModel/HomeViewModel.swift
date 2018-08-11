@@ -114,7 +114,7 @@ class HomeViewModel {
         })
     }
 
-    private func saveResponseToCoreData(response: ResponseModel) {
+    func saveResponseToCoreData(response: ResponseModel) {
         //Clear every thing from coreData
         CoreDataManager.sharedInstance.reset()
         
