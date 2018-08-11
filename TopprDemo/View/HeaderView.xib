@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeaderView" customModule="TopprDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="41"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h0p-Uk-vYp">
+                    <rect key="frame" x="16" y="11.5" width="39.5" height="19"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                    <color key="textColor" red="0.0" green="0.54901960780000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CSb-YY-WmU">
+                    <rect key="frame" x="317" y="0.0" width="50" height="41"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="ZeP-lf-hHL"/>
+                    </constraints>
+                    <state key="normal" image="downArrow"/>
+                    <connections>
+                        <action selector="toggleButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="aIP-hc-ezH"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.8901960784313725" green="0.90588235294117647" blue="0.92156862745098034" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="h0p-Uk-vYp" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="0YG-NV-ETM"/>
+                <constraint firstItem="CSb-YY-WmU" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="3lM-EF-b9g"/>
+                <constraint firstItem="CSb-YY-WmU" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="JUL-cp-bmy"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="CSb-YY-WmU" secondAttribute="trailing" constant="8" id="UmT-DL-m85"/>
+                <constraint firstItem="h0p-Uk-vYp" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Vj0-Gx-K8h"/>
+                <constraint firstItem="CSb-YY-WmU" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="h0p-Uk-vYp" secondAttribute="trailing" constant="8" id="fKu-vw-GAO"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="titleLabel" destination="h0p-Uk-vYp" id="jKq-LK-ckD"/>
+                <outlet property="toggleButton" destination="CSb-YY-WmU" id="p8y-Bc-diQ"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="-259.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="downArrow" width="15" height="9"/>
+    </resources>
+</document>

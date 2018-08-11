@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TopprDemo/WebService/WebServiceManager.swift"
+            timestampString = "555629063.0563231"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "fetch(with:decode:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(extension in TopprDemo):TopprDemo.WebServiceManager.fetch&lt;A where A1: Swift.Decodable&gt;(with: Foundation.URLRequest, decode: (Swift.Decodable) -&gt; Swift.Optional&lt;A1&gt;, completion: (TopprDemo.Response&lt;A1, TopprDemo.HTTPError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TopprDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mmt7009/Desktop/Toppr-E-Commerce/TopprDemo/TopprDemo/WebService/WebServiceManager.swift"
+                  timestampString = "555621813.179256"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "138"
+                  endingLineNumber = "138"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Decodable&gt;, Swift.Optional&lt;TopprDemo.HTTPError&gt;) -&gt; () in (extension in TopprDemo):TopprDemo.WebServiceManager.fetch&lt;A where A1: Swift.Decodable&gt;(with: Foundation.URLRequest, decode: (Swift.Decodable) -&gt; Swift.Optional&lt;A1&gt;, completion: (TopprDemo.Response&lt;A1, TopprDemo.HTTPError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TopprDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mmt7009/Desktop/Toppr-E-Commerce/TopprDemo/TopprDemo/WebService/WebServiceManager.swift"
+                  timestampString = "555621813.182389"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "139"
+                  endingLineNumber = "139"
+                  offsetFromSymbolStart = "62">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Optional&lt;Swift.Decodable&gt;, Swift.Optional&lt;TopprDemo.HTTPError&gt;) -&gt; () in (extension in TopprDemo):TopprDemo.WebServiceManager.fetch&lt;A where A1: Swift.Decodable&gt;(with: Foundation.URLRequest, decode: (Swift.Decodable) -&gt; Swift.Optional&lt;A1&gt;, completion: (TopprDemo.Response&lt;A1, TopprDemo.HTTPError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TopprDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mmt7009/Desktop/Toppr-E-Commerce/TopprDemo/TopprDemo/WebService/WebServiceManager.swift"
+                  timestampString = "555621813.185726"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "138"
+                  endingLineNumber = "138"
+                  offsetFromSymbolStart = "237">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TopprDemo/WebService/WebServiceManager.swift"
+            timestampString = "555629063.056396"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "fetch(with:decode:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TopprDemo/WebService/WebServiceManager.swift"
+            timestampString = "555629063.05645"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "fetch(with:decode:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TopprDemo/WebService/WebServiceManager.swift"
+            timestampString = "555629063.0564981"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "fetch(with:decode:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TopprDemo/WebService/WebServiceManager.swift"
+            timestampString = "555629063.0565439"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "downloadTask(with:decodingType:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TopprDemo/WebService/WebServiceManager.swift"
+            timestampString = "555629063.05659"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "downloadTask(with:decodingType:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TopprDemo/WebService/WebServiceManager.swift"
+            timestampString = "555629063.0566339"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "downloadTask(with:decodingType:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
